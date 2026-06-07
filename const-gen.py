@@ -77,8 +77,20 @@ def genDemap(constellation, map_dim, shift):
 			ii += 1
 	return demap
 
+def genDemapTable(demap, row_size):
+	print(f'\r\nconst int16_t Demap[{len(demap)}] = {{ \\')
+	i = 0;
+	for y in range(row_size):
+		print(f'   /* {i:^5} */ ', end='')
+		for x in range(row_size):
+			print(f'{int(demap[i])}, ', end='')
+			i += 1
+		print(f' \\\r\n', end='')
+	print(f'}};')
+	return
+
 def genConstTable(constellation):
-	print(f'\r\nconst int16_t Constellation[{len(constellation[0]*2)}] = {{ \\')
+	print(f'\r\nconst int16_t Constellation[{len(constellation[0])*2}] = {{ \\')
 	for i in range(len(constellation[0])):
 		print(f'   /* {i:^5} */ ', end='')
 		print(f'{int(constellation[0][i])},', end='')
@@ -110,6 +122,7 @@ def main():
 	plt.show()
 
 	genConstTable(constellation)
+	genDemapTable(demap, 32)
 
 	print('\r\nDone.\r\n')
 
