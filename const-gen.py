@@ -123,7 +123,22 @@ def main():
 
 	genConstTable(constellation)
 	genDemapTable(demap, 32)
-
+	
+	# Compute the average energy of this constellation:
+	energy = 0;
+	for i in range(len(constellation[0])):
+		energy += np.sqrt(np.power(constellation[0][i]/32768, 2) + np.power(constellation[1][i]/32768, 2))
+	energy = energy / 32
+	print(f'Constellation energy: {energy}\r\n');
+	correction = 1/energy
+	print(f'Constellation time domain int16_t gain correction: {int(correction * 32768)}\r\n');
+	constellation*= correction
+	energy = 0;
+	for i in range(len(constellation[0])):
+		energy += np.sqrt(np.power(constellation[0][i]/32768, 2) + np.power(constellation[1][i]/32768, 2))
+	energy = energy / 32
+	print(f'Corrected Constellation energy: {energy}\r\n');
+	
 	print('\r\nDone.\r\n')
 
 if __name__ == "__main__":
