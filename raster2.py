@@ -55,8 +55,8 @@ def genQAM(size, step):
 	j_odd = 1
 	for i in range(size):
 		# determine absolute row and column
-		xrow = int((constellation[0][i] - xmin) // step)
-		yrow = int((constellation[1][i] - ymin) // step)
+		xrow = int(round((constellation[0][i] - xmin) / step))
+		yrow = int(round((constellation[1][i] - ymin) / step))
 		print(f'xrow: {xrow} yrow: {yrow}')
 		if (xrow % 2) == (yrow % 2):
 			# set A, put in even
