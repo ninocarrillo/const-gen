@@ -105,7 +105,7 @@ def genDemapTable(demap, row_size):
 	return
 
 def genConstTable(constellation):
-	print(f'\r\nconst uint16_t Constellation[{len(constellation[0])*2}] = {{ \\')
+	print(f'\r\nconst int16_t Constellation[{len(constellation[0])*2}] = {{ \\')
 	for i in range(len(constellation[0])):
 		print(f'   /* {i:^5} */ ', end='')
 		print(f'{int(constellation[0][i])},', end='')
