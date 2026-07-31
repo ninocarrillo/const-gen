@@ -119,16 +119,16 @@ def main():
 		print("Python version should be 3.x, exiting")
 		sys.exit(1)
 
-	if len(sys.argv) < 2:
-		print("Not enough arguments. Usage: python3 raster.py <const size> <interval>")
+	if len(sys.argv) < 3:
+		print("Not enough arguments. Usage: python3 raster.py <const size> <interval> <shift bits>")
 		sys.exit(1)
 
 	const_size = int(sys.argv[1])
 	const_intv = int(sys.argv[2])
+	shift_bits = int(sys.argv[3])
 
 	constellation = genQAM(const_size, const_intv)
 
-	shift_bits = 10
 
 	# create a decode map
 	demap = genDemap(constellation, shift_bits)
