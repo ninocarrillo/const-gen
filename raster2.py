@@ -76,7 +76,7 @@ def genQAM(size, step):
 
 def genDemap(constellation, shift):
 	map_dim = np.power(2,16-shift)
-	div = np.power(2,shift)
+	div = np.power(2,shift+1)
 	const_count = len(constellation[0])
 	demap = np.zeros(map_dim*map_dim)
 	distances = np.zeros(const_count)
