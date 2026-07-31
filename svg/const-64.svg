@@ -1,0 +1,399 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='-36000, -36000, 72000, 72000'>
+ <text x='-32767' y='-31267' font-size='1500' font-family='Arial, sans-serif' fill='black'>Constellation Size 64 </text>
+ <text x='-32767' y='-29017' font-size='1500' font-family='Arial, sans-serif' fill='black'>Odd Points Filled </text>
+ <circle stroke='gray' stroke-width='100' r='32767' fill='none' opacity='0.25'>
+  <title>Constellation Unit Circle Radius 32767</title>
+ </circle>
+ <line stroke='gray' stroke-width='100' x1='-32768' y1='0' x2='32768' y2='0' fill='none' opacity='0.25'>
+  <title>Constellation Real Axis Size 65536</title>
+ </line>
+ <text x='36000' y='750' font-family='courier' font-size='1500' fill='black'>I </text>
+ <line stroke='gray' stroke-width='100' x1='0' y1='-32768' x2='0' y2='32768' fill='none' opacity='0.25'>
+  <title>Constellation Imag Axis Size 65536</title>
+ </line>
+ <text x='750' y='-34500' font-family='courier' font-size='1500' fill='black'>Q </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='10855' cy='-3618' r='500' opacity='1.0'>
+   <title>0 (10855, 3618)</title>
+  </circle>
+ <text x='10855' y='-2418' font-size='750' font-family='Arial, sans-serif' fill='black'>0 </text>
+ <text x='10855' y='-1668' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+ <text x='10855' y='-918' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='3618' cy='-3618' r='500' opacity='1.0'>
+   <title>1 (3618, 3618)</title>
+  </circle>
+ <text x='3618' y='-2418' font-size='750' font-family='Arial, sans-serif' fill='black'>1 </text>
+ <text x='3618' y='-1668' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+ <text x='3618' y='-918' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='25329' cy='-3618' r='500' opacity='1.0'>
+   <title>2 (25329, 3618)</title>
+  </circle>
+ <text x='25329' y='-2418' font-size='750' font-family='Arial, sans-serif' fill='black'>2 </text>
+ <text x='25329' y='-1668' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+ <text x='25329' y='-918' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='18092' cy='-3618' r='500' opacity='1.0'>
+   <title>3 (18092, 3618)</title>
+  </circle>
+ <text x='18092' y='-2418' font-size='750' font-family='Arial, sans-serif' fill='black'>3 </text>
+ <text x='18092' y='-1668' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+ <text x='18092' y='-918' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='3618' cy='-10855' r='500' opacity='1.0'>
+   <title>4 (3618, 10855)</title>
+  </circle>
+ <text x='3618' y='-9655' font-size='750' font-family='Arial, sans-serif' fill='black'>4 </text>
+ <text x='3618' y='-8905' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+ <text x='3618' y='-8155' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='32566' cy='-3618' r='500' opacity='1.0'>
+   <title>5 (32566, 3618)</title>
+  </circle>
+ <text x='32566' y='-2418' font-size='750' font-family='Arial, sans-serif' fill='black'>5 </text>
+ <text x='32566' y='-1668' font-size='750' font-family='Arial, sans-serif' fill='black'>32566 </text>
+ <text x='32566' y='-918' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='18092' cy='-10855' r='500' opacity='1.0'>
+   <title>6 (18092, 10855)</title>
+  </circle>
+ <text x='18092' y='-9655' font-size='750' font-family='Arial, sans-serif' fill='black'>6 </text>
+ <text x='18092' y='-8905' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+ <text x='18092' y='-8155' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='10855' cy='-10855' r='500' opacity='1.0'>
+   <title>7 (10855, 10855)</title>
+  </circle>
+ <text x='10855' y='-9655' font-size='750' font-family='Arial, sans-serif' fill='black'>7 </text>
+ <text x='10855' y='-8905' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+ <text x='10855' y='-8155' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='10855' cy='-18092' r='500' opacity='1.0'>
+   <title>8 (10855, 18092)</title>
+  </circle>
+ <text x='10855' y='-16892' font-size='750' font-family='Arial, sans-serif' fill='black'>8 </text>
+ <text x='10855' y='-16142' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+ <text x='10855' y='-15392' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='25329' cy='-10855' r='500' opacity='1.0'>
+   <title>9 (25329, 10855)</title>
+  </circle>
+ <text x='25329' y='-9655' font-size='750' font-family='Arial, sans-serif' fill='black'>9 </text>
+ <text x='25329' y='-8905' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+ <text x='25329' y='-8155' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='25329' cy='-18092' r='500' opacity='1.0'>
+   <title>10 (25329, 18092)</title>
+  </circle>
+ <text x='25329' y='-16892' font-size='750' font-family='Arial, sans-serif' fill='black'>10 </text>
+ <text x='25329' y='-16142' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+ <text x='25329' y='-15392' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='3618' cy='-18092' r='500' opacity='1.0'>
+   <title>11 (3618, 18092)</title>
+  </circle>
+ <text x='3618' y='-16892' font-size='750' font-family='Arial, sans-serif' fill='black'>11 </text>
+ <text x='3618' y='-16142' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+ <text x='3618' y='-15392' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='3618' cy='-25329' r='500' opacity='1.0'>
+   <title>12 (3618, 25329)</title>
+  </circle>
+ <text x='3618' y='-24129' font-size='750' font-family='Arial, sans-serif' fill='black'>12 </text>
+ <text x='3618' y='-23379' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+ <text x='3618' y='-22629' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='18092' cy='-18092' r='500' opacity='1.0'>
+   <title>13 (18092, 18092)</title>
+  </circle>
+ <text x='18092' y='-16892' font-size='750' font-family='Arial, sans-serif' fill='black'>13 </text>
+ <text x='18092' y='-16142' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+ <text x='18092' y='-15392' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='18092' cy='-25329' r='500' opacity='1.0'>
+   <title>14 (18092, 25329)</title>
+  </circle>
+ <text x='18092' y='-24129' font-size='750' font-family='Arial, sans-serif' fill='black'>14 </text>
+ <text x='18092' y='-23379' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+ <text x='18092' y='-22629' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='10855' cy='-25329' r='500' opacity='1.0'>
+   <title>15 (10855, 25329)</title>
+  </circle>
+ <text x='10855' y='-24129' font-size='750' font-family='Arial, sans-serif' fill='black'>15 </text>
+ <text x='10855' y='-23379' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+ <text x='10855' y='-22629' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-3618' cy='-3618' r='500' opacity='1.0'>
+   <title>16 (-3618, 3618)</title>
+  </circle>
+ <text x='-3618' y='-2418' font-size='750' font-family='Arial, sans-serif' fill='black'>16 </text>
+ <text x='-3618' y='-1668' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+ <text x='-3618' y='-918' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-10855' cy='-3618' r='500' opacity='1.0'>
+   <title>17 (-10855, 3618)</title>
+  </circle>
+ <text x='-10855' y='-2418' font-size='750' font-family='Arial, sans-serif' fill='black'>17 </text>
+ <text x='-10855' y='-1668' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+ <text x='-10855' y='-918' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-18092' cy='-3618' r='500' opacity='1.0'>
+   <title>18 (-18092, 3618)</title>
+  </circle>
+ <text x='-18092' y='-2418' font-size='750' font-family='Arial, sans-serif' fill='black'>18 </text>
+ <text x='-18092' y='-1668' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+ <text x='-18092' y='-918' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-25329' cy='-3618' r='500' opacity='1.0'>
+   <title>19 (-25329, 3618)</title>
+  </circle>
+ <text x='-25329' y='-2418' font-size='750' font-family='Arial, sans-serif' fill='black'>19 </text>
+ <text x='-25329' y='-1668' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+ <text x='-25329' y='-918' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-32566' cy='-3618' r='500' opacity='1.0'>
+   <title>20 (-32566, 3618)</title>
+  </circle>
+ <text x='-32566' y='-2418' font-size='750' font-family='Arial, sans-serif' fill='black'>20 </text>
+ <text x='-32566' y='-1668' font-size='750' font-family='Arial, sans-serif' fill='black'>-32566 </text>
+ <text x='-32566' y='-918' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-3618' cy='-10855' r='500' opacity='1.0'>
+   <title>21 (-3618, 10855)</title>
+  </circle>
+ <text x='-3618' y='-9655' font-size='750' font-family='Arial, sans-serif' fill='black'>21 </text>
+ <text x='-3618' y='-8905' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+ <text x='-3618' y='-8155' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-10855' cy='-10855' r='500' opacity='1.0'>
+   <title>22 (-10855, 10855)</title>
+  </circle>
+ <text x='-10855' y='-9655' font-size='750' font-family='Arial, sans-serif' fill='black'>22 </text>
+ <text x='-10855' y='-8905' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+ <text x='-10855' y='-8155' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-18092' cy='-10855' r='500' opacity='1.0'>
+   <title>23 (-18092, 10855)</title>
+  </circle>
+ <text x='-18092' y='-9655' font-size='750' font-family='Arial, sans-serif' fill='black'>23 </text>
+ <text x='-18092' y='-8905' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+ <text x='-18092' y='-8155' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-25329' cy='-10855' r='500' opacity='1.0'>
+   <title>24 (-25329, 10855)</title>
+  </circle>
+ <text x='-25329' y='-9655' font-size='750' font-family='Arial, sans-serif' fill='black'>24 </text>
+ <text x='-25329' y='-8905' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+ <text x='-25329' y='-8155' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-10855' cy='-18092' r='500' opacity='1.0'>
+   <title>25 (-10855, 18092)</title>
+  </circle>
+ <text x='-10855' y='-16892' font-size='750' font-family='Arial, sans-serif' fill='black'>25 </text>
+ <text x='-10855' y='-16142' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+ <text x='-10855' y='-15392' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-3618' cy='-18092' r='500' opacity='1.0'>
+   <title>26 (-3618, 18092)</title>
+  </circle>
+ <text x='-3618' y='-16892' font-size='750' font-family='Arial, sans-serif' fill='black'>26 </text>
+ <text x='-3618' y='-16142' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+ <text x='-3618' y='-15392' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-25329' cy='-18092' r='500' opacity='1.0'>
+   <title>27 (-25329, 18092)</title>
+  </circle>
+ <text x='-25329' y='-16892' font-size='750' font-family='Arial, sans-serif' fill='black'>27 </text>
+ <text x='-25329' y='-16142' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+ <text x='-25329' y='-15392' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-18092' cy='-18092' r='500' opacity='1.0'>
+   <title>28 (-18092, 18092)</title>
+  </circle>
+ <text x='-18092' y='-16892' font-size='750' font-family='Arial, sans-serif' fill='black'>28 </text>
+ <text x='-18092' y='-16142' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+ <text x='-18092' y='-15392' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-3618' cy='-25329' r='500' opacity='1.0'>
+   <title>29 (-3618, 25329)</title>
+  </circle>
+ <text x='-3618' y='-24129' font-size='750' font-family='Arial, sans-serif' fill='black'>29 </text>
+ <text x='-3618' y='-23379' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+ <text x='-3618' y='-22629' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-10855' cy='-25329' r='500' opacity='1.0'>
+   <title>30 (-10855, 25329)</title>
+  </circle>
+ <text x='-10855' y='-24129' font-size='750' font-family='Arial, sans-serif' fill='black'>30 </text>
+ <text x='-10855' y='-23379' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+ <text x='-10855' y='-22629' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-18092' cy='-25329' r='500' opacity='1.0'>
+   <title>31 (-18092, 25329)</title>
+  </circle>
+ <text x='-18092' y='-24129' font-size='750' font-family='Arial, sans-serif' fill='black'>31 </text>
+ <text x='-18092' y='-23379' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+ <text x='-18092' y='-22629' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-10855' cy='3618' r='500' opacity='1.0'>
+   <title>32 (-10855, -3618)</title>
+  </circle>
+ <text x='-10855' y='4818' font-size='750' font-family='Arial, sans-serif' fill='black'>32 </text>
+ <text x='-10855' y='5568' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+ <text x='-10855' y='6318' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-3618' cy='3618' r='500' opacity='1.0'>
+   <title>33 (-3618, -3618)</title>
+  </circle>
+ <text x='-3618' y='4818' font-size='750' font-family='Arial, sans-serif' fill='black'>33 </text>
+ <text x='-3618' y='5568' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+ <text x='-3618' y='6318' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-25329' cy='3618' r='500' opacity='1.0'>
+   <title>34 (-25329, -3618)</title>
+  </circle>
+ <text x='-25329' y='4818' font-size='750' font-family='Arial, sans-serif' fill='black'>34 </text>
+ <text x='-25329' y='5568' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+ <text x='-25329' y='6318' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-18092' cy='3618' r='500' opacity='1.0'>
+   <title>35 (-18092, -3618)</title>
+  </circle>
+ <text x='-18092' y='4818' font-size='750' font-family='Arial, sans-serif' fill='black'>35 </text>
+ <text x='-18092' y='5568' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+ <text x='-18092' y='6318' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-3618' cy='10855' r='500' opacity='1.0'>
+   <title>36 (-3618, -10855)</title>
+  </circle>
+ <text x='-3618' y='12055' font-size='750' font-family='Arial, sans-serif' fill='black'>36 </text>
+ <text x='-3618' y='12805' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+ <text x='-3618' y='13555' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-32566' cy='3618' r='500' opacity='1.0'>
+   <title>37 (-32566, -3618)</title>
+  </circle>
+ <text x='-32566' y='4818' font-size='750' font-family='Arial, sans-serif' fill='black'>37 </text>
+ <text x='-32566' y='5568' font-size='750' font-family='Arial, sans-serif' fill='black'>-32566 </text>
+ <text x='-32566' y='6318' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-18092' cy='10855' r='500' opacity='1.0'>
+   <title>38 (-18092, -10855)</title>
+  </circle>
+ <text x='-18092' y='12055' font-size='750' font-family='Arial, sans-serif' fill='black'>38 </text>
+ <text x='-18092' y='12805' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+ <text x='-18092' y='13555' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-10855' cy='10855' r='500' opacity='1.0'>
+   <title>39 (-10855, -10855)</title>
+  </circle>
+ <text x='-10855' y='12055' font-size='750' font-family='Arial, sans-serif' fill='black'>39 </text>
+ <text x='-10855' y='12805' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+ <text x='-10855' y='13555' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-10855' cy='18092' r='500' opacity='1.0'>
+   <title>40 (-10855, -18092)</title>
+  </circle>
+ <text x='-10855' y='19292' font-size='750' font-family='Arial, sans-serif' fill='black'>40 </text>
+ <text x='-10855' y='20042' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+ <text x='-10855' y='20792' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-25329' cy='10855' r='500' opacity='1.0'>
+   <title>41 (-25329, -10855)</title>
+  </circle>
+ <text x='-25329' y='12055' font-size='750' font-family='Arial, sans-serif' fill='black'>41 </text>
+ <text x='-25329' y='12805' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+ <text x='-25329' y='13555' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-25329' cy='18092' r='500' opacity='1.0'>
+   <title>42 (-25329, -18092)</title>
+  </circle>
+ <text x='-25329' y='19292' font-size='750' font-family='Arial, sans-serif' fill='black'>42 </text>
+ <text x='-25329' y='20042' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+ <text x='-25329' y='20792' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-3618' cy='18092' r='500' opacity='1.0'>
+   <title>43 (-3618, -18092)</title>
+  </circle>
+ <text x='-3618' y='19292' font-size='750' font-family='Arial, sans-serif' fill='black'>43 </text>
+ <text x='-3618' y='20042' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+ <text x='-3618' y='20792' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-3618' cy='25329' r='500' opacity='1.0'>
+   <title>44 (-3618, -25329)</title>
+  </circle>
+ <text x='-3618' y='26529' font-size='750' font-family='Arial, sans-serif' fill='black'>44 </text>
+ <text x='-3618' y='27279' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+ <text x='-3618' y='28029' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-18092' cy='18092' r='500' opacity='1.0'>
+   <title>45 (-18092, -18092)</title>
+  </circle>
+ <text x='-18092' y='19292' font-size='750' font-family='Arial, sans-serif' fill='black'>45 </text>
+ <text x='-18092' y='20042' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+ <text x='-18092' y='20792' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-18092' cy='25329' r='500' opacity='1.0'>
+   <title>46 (-18092, -25329)</title>
+  </circle>
+ <text x='-18092' y='26529' font-size='750' font-family='Arial, sans-serif' fill='black'>46 </text>
+ <text x='-18092' y='27279' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+ <text x='-18092' y='28029' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-10855' cy='25329' r='500' opacity='1.0'>
+   <title>47 (-10855, -25329)</title>
+  </circle>
+ <text x='-10855' y='26529' font-size='750' font-family='Arial, sans-serif' fill='black'>47 </text>
+ <text x='-10855' y='27279' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+ <text x='-10855' y='28029' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='3618' cy='3618' r='500' opacity='1.0'>
+   <title>48 (3618, -3618)</title>
+  </circle>
+ <text x='3618' y='4818' font-size='750' font-family='Arial, sans-serif' fill='black'>48 </text>
+ <text x='3618' y='5568' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+ <text x='3618' y='6318' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='10855' cy='3618' r='500' opacity='1.0'>
+   <title>49 (10855, -3618)</title>
+  </circle>
+ <text x='10855' y='4818' font-size='750' font-family='Arial, sans-serif' fill='black'>49 </text>
+ <text x='10855' y='5568' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+ <text x='10855' y='6318' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='18092' cy='3618' r='500' opacity='1.0'>
+   <title>50 (18092, -3618)</title>
+  </circle>
+ <text x='18092' y='4818' font-size='750' font-family='Arial, sans-serif' fill='black'>50 </text>
+ <text x='18092' y='5568' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+ <text x='18092' y='6318' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='25329' cy='3618' r='500' opacity='1.0'>
+   <title>51 (25329, -3618)</title>
+  </circle>
+ <text x='25329' y='4818' font-size='750' font-family='Arial, sans-serif' fill='black'>51 </text>
+ <text x='25329' y='5568' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+ <text x='25329' y='6318' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='32566' cy='3618' r='500' opacity='1.0'>
+   <title>52 (32566, -3618)</title>
+  </circle>
+ <text x='32566' y='4818' font-size='750' font-family='Arial, sans-serif' fill='black'>52 </text>
+ <text x='32566' y='5568' font-size='750' font-family='Arial, sans-serif' fill='black'>32566 </text>
+ <text x='32566' y='6318' font-size='750' font-family='Arial, sans-serif' fill='black'>-3618 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='3618' cy='10855' r='500' opacity='1.0'>
+   <title>53 (3618, -10855)</title>
+  </circle>
+ <text x='3618' y='12055' font-size='750' font-family='Arial, sans-serif' fill='black'>53 </text>
+ <text x='3618' y='12805' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+ <text x='3618' y='13555' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='10855' cy='10855' r='500' opacity='1.0'>
+   <title>54 (10855, -10855)</title>
+  </circle>
+ <text x='10855' y='12055' font-size='750' font-family='Arial, sans-serif' fill='black'>54 </text>
+ <text x='10855' y='12805' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+ <text x='10855' y='13555' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='18092' cy='10855' r='500' opacity='1.0'>
+   <title>55 (18092, -10855)</title>
+  </circle>
+ <text x='18092' y='12055' font-size='750' font-family='Arial, sans-serif' fill='black'>55 </text>
+ <text x='18092' y='12805' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+ <text x='18092' y='13555' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='25329' cy='10855' r='500' opacity='1.0'>
+   <title>56 (25329, -10855)</title>
+  </circle>
+ <text x='25329' y='12055' font-size='750' font-family='Arial, sans-serif' fill='black'>56 </text>
+ <text x='25329' y='12805' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+ <text x='25329' y='13555' font-size='750' font-family='Arial, sans-serif' fill='black'>-10855 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='10855' cy='18092' r='500' opacity='1.0'>
+   <title>57 (10855, -18092)</title>
+  </circle>
+ <text x='10855' y='19292' font-size='750' font-family='Arial, sans-serif' fill='black'>57 </text>
+ <text x='10855' y='20042' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+ <text x='10855' y='20792' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='3618' cy='18092' r='500' opacity='1.0'>
+   <title>58 (3618, -18092)</title>
+  </circle>
+ <text x='3618' y='19292' font-size='750' font-family='Arial, sans-serif' fill='black'>58 </text>
+ <text x='3618' y='20042' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+ <text x='3618' y='20792' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='25329' cy='18092' r='500' opacity='1.0'>
+   <title>59 (25329, -18092)</title>
+  </circle>
+ <text x='25329' y='19292' font-size='750' font-family='Arial, sans-serif' fill='black'>59 </text>
+ <text x='25329' y='20042' font-size='750' font-family='Arial, sans-serif' fill='black'>25329 </text>
+ <text x='25329' y='20792' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='18092' cy='18092' r='500' opacity='1.0'>
+   <title>60 (18092, -18092)</title>
+  </circle>
+ <text x='18092' y='19292' font-size='750' font-family='Arial, sans-serif' fill='black'>60 </text>
+ <text x='18092' y='20042' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+ <text x='18092' y='20792' font-size='750' font-family='Arial, sans-serif' fill='black'>-18092 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='3618' cy='25329' r='500' opacity='1.0'>
+   <title>61 (3618, -25329)</title>
+  </circle>
+ <text x='3618' y='26529' font-size='750' font-family='Arial, sans-serif' fill='black'>61 </text>
+ <text x='3618' y='27279' font-size='750' font-family='Arial, sans-serif' fill='black'>3618 </text>
+ <text x='3618' y='28029' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='10855' cy='25329' r='500' opacity='1.0'>
+   <title>62 (10855, -25329)</title>
+  </circle>
+ <text x='10855' y='26529' font-size='750' font-family='Arial, sans-serif' fill='black'>62 </text>
+ <text x='10855' y='27279' font-size='750' font-family='Arial, sans-serif' fill='black'>10855 </text>
+ <text x='10855' y='28029' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='18092' cy='25329' r='500' opacity='1.0'>
+   <title>63 (18092, -25329)</title>
+  </circle>
+ <text x='18092' y='26529' font-size='750' font-family='Arial, sans-serif' fill='black'>63 </text>
+ <text x='18092' y='27279' font-size='750' font-family='Arial, sans-serif' fill='black'>18092 </text>
+ <text x='18092' y='28029' font-size='750' font-family='Arial, sans-serif' fill='black'>-25329 </text>
+</svg>

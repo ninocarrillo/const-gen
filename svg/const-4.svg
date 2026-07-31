@@ -1,0 +1,39 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='-36000, -36000, 72000, 72000'>
+ <text x='-32767' y='-31267' font-size='1500' font-family='Arial, sans-serif' fill='black'>Constellation Size 4 </text>
+ <text x='-32767' y='-29017' font-size='1500' font-family='Arial, sans-serif' fill='black'>Odd Points Filled </text>
+ <circle stroke='gray' stroke-width='100' r='32767' fill='none' opacity='0.25'>
+  <title>Constellation Unit Circle Radius 32767</title>
+ </circle>
+ <line stroke='gray' stroke-width='100' x1='-32768' y1='0' x2='32768' y2='0' fill='none' opacity='0.25'>
+  <title>Constellation Real Axis Size 65536</title>
+ </line>
+ <text x='36000' y='750' font-family='courier' font-size='1500' fill='black'>I </text>
+ <line stroke='gray' stroke-width='100' x1='0' y1='-32768' x2='0' y2='32768' fill='none' opacity='0.25'>
+  <title>Constellation Imag Axis Size 65536</title>
+ </line>
+ <text x='750' y='-34500' font-family='courier' font-size='1500' fill='black'>Q </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='23170' cy='-23170' r='500' opacity='1.0'>
+   <title>0 (23170, 23170)</title>
+  </circle>
+ <text x='23170' y='-21970' font-size='750' font-family='Arial, sans-serif' fill='black'>0 </text>
+ <text x='23170' y='-21220' font-size='750' font-family='Arial, sans-serif' fill='black'>23170 </text>
+ <text x='23170' y='-20470' font-size='750' font-family='Arial, sans-serif' fill='black'>23170 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='-23170' cy='-23170' r='500' opacity='1.0'>
+   <title>1 (-23170, 23170)</title>
+  </circle>
+ <text x='-23170' y='-21970' font-size='750' font-family='Arial, sans-serif' fill='black'>1 </text>
+ <text x='-23170' y='-21220' font-size='750' font-family='Arial, sans-serif' fill='black'>-23170 </text>
+ <text x='-23170' y='-20470' font-size='750' font-family='Arial, sans-serif' fill='black'>23170 </text>
+  <circle stroke='black' fill='white' stroke-width='200' cx='-23170' cy='23170' r='500' opacity='1.0'>
+   <title>2 (-23170, -23170)</title>
+  </circle>
+ <text x='-23170' y='24370' font-size='750' font-family='Arial, sans-serif' fill='black'>2 </text>
+ <text x='-23170' y='25120' font-size='750' font-family='Arial, sans-serif' fill='black'>-23170 </text>
+ <text x='-23170' y='25870' font-size='750' font-family='Arial, sans-serif' fill='black'>-23170 </text>
+  <circle stroke='black' fill='black' stroke-width='200' cx='23170' cy='23170' r='500' opacity='1.0'>
+   <title>3 (23170, -23170)</title>
+  </circle>
+ <text x='23170' y='24370' font-size='750' font-family='Arial, sans-serif' fill='black'>3 </text>
+ <text x='23170' y='25120' font-size='750' font-family='Arial, sans-serif' fill='black'>23170 </text>
+ <text x='23170' y='25870' font-size='750' font-family='Arial, sans-serif' fill='black'>-23170 </text>
+</svg>

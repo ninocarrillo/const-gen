@@ -14,8 +14,8 @@ void ConstellationSVG(int16_t *symbol, int count) {
     } else {
         // Make an SVG viewbox
         int16_t uc_rad = 32767;
-        int xdim = 70000;
-        int ydim = 70000;
+        int xdim = 72000;
+        int ydim = 72000;
         snprintf(work_string, sizeof(work_string), "%i, %i, %i, %i", /* xmin */-(xdim/2), /* ymin */ -(ydim/2), /* width */ xdim, /* height */ ydim);
         fprintf(svg, "<svg xmlns='http://www.w3.org/2000/svg' viewBox='%s'>\r\n", work_string);
 		// Add some text
