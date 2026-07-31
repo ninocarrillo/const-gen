@@ -76,17 +76,17 @@ def genQAM(size, step):
 
 def genDemap(constellation, shift):
 	map_dim = np.power(2,16-shift)
-	div = np.power(2,shift+1)
+	div = np.power(2,shift)
 	const_count = len(constellation[0])
 	demap = np.zeros(map_dim*map_dim)
 	distances = np.zeros(const_count)
 	ii = 0
-	for y in range(-map_dim//2, map_dim//2):
-		for x in range(-map_dim//2, map_dim//2):
+	for y in range(0, map_dim):
+		for x in range(0, map_dim):
 			# determine the closest constellation point to this map point
 			for i in range(const_count):
-				x_c = constellation[0][i] / div
-				y_c = constellation[1][i] / div
+				x_c = ((constellation[0][i]/2) + 32768) / div
+				y_c = ((constellation[1][i]/2) + 32768) / div
 				distances[i] = np.sqrt(np.power(x-x_c,2) + np.power(y-y_c,2))
 			demap[ii] = int(np.argmin(distances))
 			ii += 1
