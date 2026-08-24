@@ -100,7 +100,7 @@ def genDemapTable(demap, row_size):
 		for x in range(row_size):
 			print(f'{int(demap[i])}, ', end='')
 			i += 1
-		print(f' \\\r\n', end='')
+		print(f' \\\r', end='')
 	print(f'}};')
 	return
 
