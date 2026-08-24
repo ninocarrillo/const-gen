@@ -120,7 +120,7 @@ def main():
 		sys.exit(1)
 
 	if len(sys.argv) < 3:
-		print("Not enough arguments. Usage: python3 raster.py <const size> <interval> <shift bits>")
+		print("Not enough arguments. Usage: python3 raster.py <const point count> <interval> <shift bits>")
 		sys.exit(1)
 
 	const_size = int(sys.argv[1])
