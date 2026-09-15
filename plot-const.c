@@ -16,15 +16,15 @@ int16_t QPSK[8] = { \
     /* 3 */  23170, -23170 \
 };
 
-int16_t PSK8[16] = { \
-    /* 0 */  -32767,  0, \
-    /* 1 */  -23170,  23170, \
-    /* 2 */   32767,  0, \
-    /* 3 */   23170,  -23170, \
-    /* 4 */   0,       32767, \
-    /* 5 */   23170,   23170, \
-    /* 6 */   0,       -32767, \
-    /* 7 */  -23170,  -23170 \
+int16_t QAM8[16] = { \
+   /*   0   */ 0,32767, \
+   /*   2   */ 0,10922, \
+   /*   1   */ -21845,10922, \
+   /*   4   */ -21845,-10922, \
+   /*   3   */ 21845,10922, \
+   /*   6   */ 21845,-10922, \
+   /*   5   */ 0,-10922, \
+   /*   7   */ 0,-32767, \
 };
 
 int16_t QAM16[32] = { \
@@ -541,7 +541,7 @@ int16_t QAM256[512] = { \
 int main(int arg_count, char* arg_values[]) {
 	ConstellationSVG(BPSK, 2);
 	ConstellationSVG(QPSK, 4);
-	ConstellationSVG(PSK8, 8);
+	ConstellationSVG(QAM8, 8);
 	ConstellationSVG(QAM16, 16);
 	ConstellationSVG(QAM32, 32);
 	ConstellationSVG(QAM64, 64);
