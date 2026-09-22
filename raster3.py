@@ -6,9 +6,108 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 
+def sortConst(constellation):
+	# now sort the constellation into offsets in even and odd
+	size = len(constellation[0])
+	sorted_constellation = np.zeros((2,size))
+	xmin = np.min(constellation[0])
+	ymin = np.min(constellation[1])
+	print(f'xmin: {xmin} ymin: {ymin}')
+	j_even = 0
+	j_odd = 1
+	for i in range(size):
+		# determine absolute row and column
+		xrow = int(round((constellation[0][i] - xmin) / step))
+		yrow = int(round((constellation[1][i] - ymin) / step))
+		print(f'xrow: {xrow} yrow: {yrow}')
+		if (xrow % 2) == (yrow % 2):
+			# set A, put in even
+			sorted_constellation[0][j_even] = constellation[0][i]
+			sorted_constellation[1][j_even] = constellation[1][i]
+			j_even += 2
+		else:
+			# set B, put in odd
+			sorted_constellation[0][j_odd] = constellation[0][i]
+			sorted_constellation[1][j_odd] = constellation[1][i]
+			j_odd += 2
+	print(f'A Count: {int(j_even/2)}, B Count: {int((j_odd - 1)/2)}')
+	for i in range(size):
+		constellation[0][i] = sorted_constellation[0][i]
+		constellation[1][i] = sorted_constellation[1][i]
+
+
 def genQAM1(sorted_constellation, size, step):
 	constellation = np.zeros((2,size))
 	# Make a constellation with symmetry across axes
+	# Work on one quadrant at a time
+	x = step // 2
+	y = step // 2
+	count = 0
+	while (count < size // 4) and (y < 32768):
+		if (np.abs(x + (y * 1j))  < 32768):
+			constellation[0][count] = x
+			constellation[1][count] = y
+			count += 1
+		x += step
+		if x > 32767:
+			x = step // 2
+			y += step
+	# Now reflect the constellation quadrants to fill the circle
+	# quadrant 2:
+	offset = size // 4
+	for i in range(size // 4):
+		constellation[0][i+offset] = -constellation[0][i]
+		constellation[1][i+offset] = constellation[1][i]
+		count += 1
+	# quadrant 3:
+	offset += size // 4
+	for i in range(size // 4):
+		constellation[0][i+offset] = -constellation[0][i]
+		constellation[1][i+offset] = -constellation[1][i]
+		count += 1
+	# quadrant 4:
+	offset += size // 4
+	for i in range(size // 4):
+		constellation[0][i+offset] = constellation[0][i]
+		constellation[1][i+offset] = -constellation[1][i]
+		count += 1
+	print(f'Count: {count}')
+	if count == size:
+		success = True
+		print("Good constellation")
+	else:
+		success = False
+		print("Bad constellation")
+	if success:
+		# now sort the constellation into offsets in even and odd
+		#sorted_constellation = np.zeros((2,size))
+		xmin = np.min(constellation[0])
+		ymin = np.min(constellation[1])
+		print(f'xmin: {xmin} ymin: {ymin}')
+		j_even = 0
+		j_odd = 1
+		for i in range(size):
+			# determine absolute row and column
+			xrow = int(round((constellation[0][i] - xmin) / step))
+			yrow = int(round((constellation[1][i] - ymin) / step))
+			print(f'xrow: {xrow} yrow: {yrow}')
+			if (xrow % 2) == (yrow % 2):
+				# set A, put in even
+				sorted_constellation[0][j_even] = constellation[0][i]
+				sorted_constellation[1][j_even] = constellation[1][i]
+				j_even += 2
+			else:
+				# set B, put in odd
+				sorted_constellation[0][j_odd] = constellation[0][i]
+				sorted_constellation[1][j_odd] = constellation[1][i]
+				j_odd += 2
+		print(f'A Count: {int(j_even/2)}, B Count: {int((j_odd - 1)/2)}')
+	constellation = sorted_constellation
+	return success
+
+def genQAM2(sorted_constellation, size, step):
+	constellation = np.zeros((2,size))
+	# Make a constellation with radial symmetry
 	# Work on one quadrant at a time
 	x = step // 2
 	y = step // 2
